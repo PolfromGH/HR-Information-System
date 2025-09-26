@@ -1,0 +1,120 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #76b6f5, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: inherit;
+    bottom: -1px;
+    left: -275px;
+    color: #5080BE;
+    font-size: 15px;
+  }
+  
+  .logo {
+    width: 345.31px;
+    height: 306px;
+    position: relative;
+    top: 24px;
+    left: 24px;
+  }
+  
+
+  .login-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 390px;
+    margin: auto;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    position: relative;
+    top: -150px;
+
+  }
+  
+  .dog {
+    width: 294px;
+    height: 374px;
+    position: absolute;
+    top: -200px;
+    right: -65  px;
+  }
+
+  .login-card h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 24px;
+
+  }
+  
+  .login-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #444;
+    position: relative;
+    bottom: -15px;
+    left: -113px;
+  }
+  
+
+  .login-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #bbb;
+    outline: none;
+  }
+  
+
+  .login-card button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-card button:hover {
+    background: #333;
+  }
+  
+
+  .forgot {
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+  }
+  .forgot:hover {
+    text-decoration: underline;
+  }
+    
